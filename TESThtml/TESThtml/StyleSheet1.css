@@ -7,14 +7,15 @@
 }
 
 h1 {
-    text-align:center;
-    color:darkgrey;
-    font-size:70px;
-    font-family:Courier New, Courier, monospace
-   }
+    text-align: center;
+    color: darkgrey;
+    font-size: 70px;
+    font-family: Courier New, Courier, monospace;
+}
+
 h2 {
-    text-align:center;
-    color:black;
-    font-size:70px;
-    font-family:Courier New, Courier, monospace
-   }
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    font-family: Courier New, Courier, monospace;
+}
