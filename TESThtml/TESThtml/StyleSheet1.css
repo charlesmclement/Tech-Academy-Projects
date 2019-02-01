@@ -1,9 +1,9 @@
 ﻿body {
     color: white;
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(255,103,15,1) 66%, rgba(255,103,15,1) 66%);
-    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(255,103,15,1) 66%,rgba(255,103,15,1) 66%);
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(255,103,15,1) 66%,rgba(255,103,15,1) 66%);
+    background: -moz-linear-gradient(top, white 0%, rgb(126, 251, 240) 66%, rgb(0, 255, 232) 100%);
+    background: -webkit-linear-gradient(top, white 0%,rgb(126, 251, 240) 66%,rgb(0, 255, 232) 100%);
+    background: linear-gradient(to bottom, white 0%,rgb(126, 251, 240) 66%,rgb(0, 255, 232) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ff670f',GradientType=0 );
     text-align: center;
 }
@@ -12,16 +12,14 @@ h1 {
     font-size: 70pt;
     font-family: Impact;
     color: #808080;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: 0px -6px 0 #212121, 0px -6px 0 #212121, 0px 6px 0 #212121, 0px 6px 0 #212121, -6px 0px 0 #212121, 6px 0px 0 #212121, -6px 0px 0 #212121, 6px 0px 0 #212121, -6px -6px 0 #212121, 6px -6px 0 #212121, -6px 6px 0 #212121, 6px 6px 0 #212121, -6px 18px 0 #212121, 0px 18px 0 #212121, 6px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 6px rgba(0,0,0,.1), 0 6px 3px rgba(0,0,0,.3), 0 12px 6px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
+    text-shadow: 0px -3px 0 #212121, 0px -3px 0 #212121, 0px 3px 0 #212121, 0px 3px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px 0px 0 #212121, 3px 0px 0 #212121, -3px -3px 0 #212121, 3px -3px 0 #212121, -3px 3px 0 #212121, 3px 3px 0 #212121, -3px 18px 0 #212121, 0px 18px 0 #212121, 3px 18px 0 #212121, 0 19px 1px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1), 0 3px 3px rgba(0,0,0,.3), 0 12px 3px rgba(0,0,0,.2), 0 18px 18px rgba(0,0,0,.25), 0 24px 24px rgba(0,0,0,.2), 0 36px 36px rgba(0,0,0,.15);
 }
 
 .contentBlock {
     text-align: left;
     color: white;
     font-family:sans-serif;
-}
+    }
 
 .divTable {
     display: table;
