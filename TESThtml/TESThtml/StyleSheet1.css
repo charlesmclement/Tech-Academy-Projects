@@ -28,6 +28,7 @@ h1 {
     width: 55%;
     margin: auto;
     border: none;
+    background-color:rgba(0,0,0,.3)
 }
 
 .divTableRow {
